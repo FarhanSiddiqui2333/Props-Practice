@@ -5,7 +5,7 @@ const Card = (props) => {
         <div className='bg-white w-80 h-56 rounded-xl shadow-md shadow-white p-1'>
             <div className="img h-1/2 w-full rounded-xl px-2 py-1">
                 <i class="fa-brands fa-instagram text-3xl text-white"></i>
-                <img src={props.profilePhoto} alt="" className='h-24 w-24 rounded-full relative left-1/2 translate-y-2 -translate-x-1/2 border-2 border-white border-solid' />
+                <img src={props.profilePhoto} alt="Profile Photo" className='h-24 w-24 rounded-full relative left-1/2 translate-y-2 -translate-x-1/2 border-2 border-white border-solid' />
             </div>
             <div className="content text-center pt-5 relative">
                 <h1 className='text-slate-900 font-extrabold text-2xl mt-5'>{props.name}</h1>
